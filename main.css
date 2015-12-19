@@ -157,53 +157,30 @@ ul.right li a {
 	font-size: 18px;
 }
 
-@media screen and (max-width: 1000px) {
-	.searchBox input {
-		width: 650px;
-	}
-	ul.left, ul.right {
-		margin: 5px 0;
-	}
- @media screen and (max-width: 768px) {
- 	* {
- 		font-size: 15px;
- 	}
- 	ul.nav {
- 		margin-top:0;
- 		margin-right: 0;
- 	}
- 	ul.nav li {
- 		padding: 5px 13px 0 0;
- 		margin: 5px 0 0 0;
- 	}
- 	div.searchBox img {
- 		padding: 142;
- 	}
- 	div.searchBox img {
- 		width: 400px;
- 		height: auto;
- 		font-size: 15px;
- 	}
- 	.searchbox input {
- 		width: 400px;
- 		height: auto;
- 		font-size: 14px;
 
+ @media (max-width: 800px) {
+ 	.searchBox input {
+ 		width: 70%;
  	}
- 	ul.left,
- 	ul.right {
- 		margin: 5px;
+ @media (max-width: 525px) {
+ 	.bottom ul,
+ 	ul.left li:nth-child(2),
+ 	ul.right li:nth-child(3) {
+ 		display: none;
  	}
- 	ul.left {
+ @media (max-width: 462px) {
+ 	.profile_img,
+ 	.share,
+ 	li .fa-bell-o,
+ 	li a {
+ 		display: none;
+ 	}
+ 	.li .fa-th,
+ 	 ul .nav li {
+ 		width: 100%;
+ 		text-align: center;
+ 		float: none;
+ 		margin: 0 auto;
  		padding-left: 0;
  	}
- 	ul.right {
- 		padding-right: 0;
- 		padding-left: 0;
- 	}
- 	ul.left li a, ul.right li a {
- 		margin: 2px 4px 0;
- 		font-size: 15px;
- 	}
-
  }
